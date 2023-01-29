@@ -1,24 +1,34 @@
 # growl-hook
 
-> A Custom Growl Notification
-
-[![NPM](https://img.shields.io/npm/v/growl-hook.svg)](https://www.npmjs.com/package/growl-hook) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+A Custom Growl Notification
+Also viewed on github here
+https://github.com/jeremytuesley/growl-hook
 
 ## Install
 
 ```bash
-npm install --save growl-hook
+npm i growl-hook-solution
 ```
 
+**not uploaded to npm, above won't work, but is set up as so**
+
 ## Usage
+
+### Test
+
+To test without installing npm package, clone this repo, then open terminal
+
+```bash
+cd growl-test
+npm start
+```
 
 ### Import
 
 ```jsx
-import React from 'react'
+import React from "react";
 
-import { useGrowl, Growl } from 'growl-hook'
-import 'growl-hook/dist/index.css'
+import { useGrowl, Growl } from "growl-hook-solution";
 ```
 
 ### Basic Usage
